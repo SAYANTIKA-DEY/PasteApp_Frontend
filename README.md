@@ -1,16 +1,93 @@
-# React + Vite
+# 📋 Paste App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Paste Management Web Application** built using **React**, **Redux Toolkit**, and **Tailwind CSS**.  
+Users can easily create, view, edit, search, and delete text-based pastes with a clean and responsive UI.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://paste-app-frontend-delta.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ✍️ Create new paste
+- 📄 View all pastes
+- 📝 Edit/update existing paste
+- ❌ Delete paste
+- 🔍 Search pastes by title
+- 📋 Copy paste to clipboard
+- 💾 Data persistence using browser localStorage
+- 📱 Fully responsive UI
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- ⚛️ React.js
+- 🧠 Redux Toolkit
+- 🎨 Tailwind CSS
+- ⚡ Vite
+- 🟨 JavaScript (ES6+)
+
+---
+
+## 📁 Project Structure
+
+paste_app/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── redux/
+│   ├── utils/
+│   ├── data/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+├── vite.config.js
+├── eslint.config.js
+└── README.md
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+git clone https://github.com/SAYANTIKA-DEY/PasteApp_Frontend.git
+
+### 2. Navigate to project directory
+
+cd paste_app
+
+### 3. Install dependencies
+
+npm install
+
+### 4. Start development server
+
+npm run dev
+
+
+---
+
+## 📌 Future Improvements
+
+- 🔐 User authentication (Login/Signup)
+- ☁️ Backend integration (MongoDB / Firebase)
+- 🌐 Cloud data storage
+- 🏷️ Tags & categories for pastes
+- 📤 Share paste via link
+
+---
+
+## 👩‍💻 Author
+
+Sayantika Dey
+
+---
