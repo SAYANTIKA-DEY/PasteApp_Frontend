@@ -3,7 +3,7 @@
 A modern **Paste Management Web Application** built using **React**, **Redux Toolkit**, and **Tailwind CSS**.  
 Users can easily create, view, edit, search, and delete text-based pastes with a clean and responsive UI.
 
-🔗 **Live Demo:** 
+🔗 **Live Demo:** https://pasteappfrontend.vercel.app/
 
 ---
 
