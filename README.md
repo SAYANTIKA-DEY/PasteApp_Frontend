@@ -32,6 +32,8 @@ Users can easily create, view, edit, search, and delete text-based pastes with a
 
 ## 📁 Project Structure
 
+## 📁 Project Structure
+
 paste_app/
 ├── public/
 ├── src/
